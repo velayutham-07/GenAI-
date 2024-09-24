@@ -6,7 +6,7 @@ import google.generativeai as genai
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-GEMEINI_API_KEY = "AIzaSyDNrPrX0oiqjkItTlfnIbL--jaxQOqEMUU"
+GEMEINI_API_KEY = ""
 
 def signal_handler(sig, frame):
     print('\nThanks for using Gemini. :)')
